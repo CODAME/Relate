@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Relate</title>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1,maximum-scale=1,user-scalable=no,minimal-ui">
+    <meta name="apple-mobile-web-app-capable" content="yes">
+    <meta name="apple-mobile-web-app-status-bar-style" content="black">
+    <link rel="stylesheet" href="assets/lib/clarity/css/main.css" />
+    <link rel="stylesheet" href="assets/css/relate.css" />
+    <script type="text/javascript" src="app/js/relate.js"></script>
+  </head>
+  <body ontouchstart="" class="header-hack">
+    <div class="app">
+      <section class="content">
+        <ul class="list list-messages sms-text">
+          <li class="list-row">
+            <h3 class="list-messsage-title">Message to Bruno Fonzi</h3>
+            <p class="profile-details">Co-founder, VP of Products at Lanica</p>
+          </li>
+        </ul>
+        <h2 class="list-title">Compose Message</h2>
+        <textarea class="form-text-textarea" placeholder="Message…"></textarea>
+        <h2 class="list-title">Or Select Shortcut Message</h2>
+        <ul class="list">
+          <li class="list-row">
+            <a href="#" class="list-link one" onclick="Relate.selectItem('one')">I'm on my way.</a>
+          </li>
+          <li class="list-row">
+            <a href="#" class="list-link two" onclick="Relate.selectItem('two')">What are you doing later?</a>
+          </li>
+          <li class="list-row">
+            <a href="#" class="list-link three" onclick="Relate.selectItem('three')">Please, give me a call.</a>
+          </li>
+        </ul>
+        <button class="button button-large button-green profile-action-button" onclick="Relate.sendMessage('profile_view_bruno.html')">Send</button>
+      </section>
+    </div>
+  </body>
+</html>

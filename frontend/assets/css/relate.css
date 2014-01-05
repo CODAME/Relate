@@ -156,3 +156,7 @@ footer {
   margin: 12px;
   width: calc(100% - 24px);
 }
+
+.sms-text {
+  text-align: center;
+}
