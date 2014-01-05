@@ -88,6 +88,14 @@ footer {
   background-image: url(../img/user_jose.jpg);
 }
 
+.bruno{
+  background-image: url(../img/user_bruno.jpg);
+}
+
+.zac{
+  background-image: url(../img/user_zac.jpg);
+}
+
 .list-messsage-title::after {
   content: none;
 }
@@ -132,4 +140,8 @@ footer {
 
 .list-link.icon-plus::after {
   content: "\50"; 
+}
+
+.profile-request-intro {
+  margin-bottom: 12px;
 }
