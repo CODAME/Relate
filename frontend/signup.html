@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Relate</title>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1,maximum-scale=1,user-scalable=no,minimal-ui">
+    <meta name="apple-mobile-web-app-capable" content="yes">
+    <meta name="apple-mobile-web-app-status-bar-style" content="black">
+    <link rel="stylesheet" href="assets/lib/clarity/css/main.css" />
+    <link rel="stylesheet" href="assets/css/relate.css" />
+    <script type="text/javascript" src="app/js/relate.js"></script>
+  </head>
+  <body ontouchstart="">
+    <div class="app">
+      <div class="top-bar">
+        <h1 class="top-bar-title">Sign Up</h1>
+        <a href="#" class="top-bar-link left icon-back" onclick="Relate.loadPage('landing.html')">Back</a>
+        <a href="#" class="top-bar-link right icon-next" onclick="Relate.loadPage('profile.html')">Continue</a>
+      </div>
+      <section class="content">
+        <form>
+          <ul class="list list-boxed">
+            <li class="list-row">
+              <fieldset>
+                <input type="text" class="form-text-input" placeholder="First Name">
+                <input type="text" class="form-text-input" placeholder="Last Name">
+              </fieldset>
+            </li>
+            <li class="list-row">
+              <fieldset>
+                <label class="form-row form-option-row form-option-alt">
+                  <input type="radio" name="radio" class="form-option-input">
+                  <span class="form-option-label">Male</span>
+                </label>
+                <label class="form-row form-option-row form-option-alt">
+                  <input type="radio" name="radio" class="form-option-input">
+                  <span class="form-option-label">Female</span>
+                </label>
+              </fieldset>
+            </li>
+            <li class="list-row">
+              <fieldset>
+                <input type="text" class="form-text-input" placeholder="Email">
+                <input type="text" class="form-text-input" placeholder="Phone">
+              </fieldset>
+            </li>
+            <li class="list-row">
+              <fieldset>
+                <input type="text" class="form-text-input" placeholder="Username">
+                <input type="password" class="form-text-input" placeholder="Password">
+                <input type="password" class="form-text-input" placeholder="Confirm Password">
+              </fieldset>
+            </li>
+            <li class="list-row">
+              <p class="disclaimer">All your information is private and will not be shared with anyone. You may choose to share it later by visiting your profile preferences and selecting what you would like to share with others.</p>
+            </li>
+          </ul>
+        </form>
+        <h2 class="list-title-row">Or Sign Up Using:</h2>
+        <a href="#" class="login-button button-facebook" onclick="Relate.loadPage('profile.html')">Facebook</a>
+        <a href="#" class="login-button button-linkedin" onclick="Relate.loadPage('profile.html')">LinkedIn</a>
+        <a href="#" class="login-button button-twitter" onclick="Relate.loadPage('profile.html')">Twitter</a>
+        <a href="#" class="login-button button-google" onclick="Relate.loadPage('profile.html')">Google+</a>
+        <br />
+      </section>
+    </div>
+  </body>
+</html>
