@@ -161,5 +161,28 @@ footer {
   text-align: center;
 }
 
-.profile-action-buttons a {
+.offer {
+  width: 100%;
+  height: 180px;
+  background-image: url(../img/offer.jpg);
+  background-size: 140%;
+  background-position: center center;
+}
+
+.offer-details p {
+  color: #666;
+}
+
+.offer-details h3 {
+  font-size: 20px;
+  color: #ff7800;
+}
+
+.offer-details strong {
+  color: #000;
+}
+
+.offer-details h4 {
+  font-size: 16px;
+  color: #ff7800;
 }
