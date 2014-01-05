@@ -145,3 +145,13 @@ footer {
 .profile-request-intro {
   margin-bottom: 12px;
 }
+
+.header-hack {
+  margin-top: 0px;
+  height: 100%;
+}
+
+.button-accept {
+  margin: 12px;
+  width: calc(100% - 24px);
+}

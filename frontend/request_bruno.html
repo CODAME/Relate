@@ -10,16 +10,12 @@
     <link rel="stylesheet" href="assets/css/relate.css" />
     <script type="text/javascript" src="app/js/relate.js"></script>
   </head>
-  <body ontouchstart="">
+  <body ontouchstart="" class="header-hack">
     <div class="app">
-      <div class="top-bar">
-        <h1 class="top-bar-title">Connection Request</h1>
-        <a href="#" class="top-bar-link left" onclick="Relate.loadPage('profile.html')">Ignore</a>
-        <a href="#" class="top-bar-link right" onclick="Relate.loadPage('profile_view_bruno.html')">Accept</a>
-      </div>
       <section class="content">
         <ul class="list list-messages">
           <li class="list-row">
+            <a href="#" class="button button-large button-green button-accept" onclick="Relate.loadPage('profile_view_bruno.html')">Accept Connection Request</a>
             <div class="list-message-img user-profile bruno"></div>
             <h3 class="list-messsage-title">Bruno Fonzi</h3>
             <p class="profile-details">Co-founder, VP of Products at Lanica</p>
