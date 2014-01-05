@@ -1,0 +1,14 @@
+{
+    "applications": {
+        "Relate": {
+            "applicationId": "SXAlyPvRF4xtRiLIVngzYeJm5AQGXdfgaALNBfNm", 
+            "masterKey": "7eaN65AJKlzoLJKCYqL6LDXqQYokMg5BSLnKMAB7"
+        }, 
+        "_default": {
+            "link": "Relate"
+        }
+    }, 
+    "global": {
+        "parseVersion": "1.2.15"
+    }
+}

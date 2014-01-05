@@ -1,0 +1,188 @@
+body {
+  margin-top: 21px;
+  height: calc(100% - 21px);
+  background-color: #f8f8f8 !important;
+}
+
+header.landing {
+  margin: 75px 0;
+}
+
+header.landing h1 {
+  width: 150px;
+  text-indent: -100%;
+  height: 150px;
+  background-image: url(../img/relate.png);
+  background-size: 100%;
+  border-radius: 75px;
+  margin: 0 auto;
+}
+
+header.landing p {
+  margin-top: 12px;
+  text-align: center;
+}
+
+footer {
+  margin: 25px 0;
+}
+
+footer {
+  text-align: center;
+}
+
+.login-button {
+  display: block;
+  text-indent: -100%;
+  margin: 0 auto;
+  width: 215px;
+  height: 60px;
+  background-size: 230px;
+  margin-top: 12px;
+}
+
+.button-twitter {
+  background-position: -8px -12px;
+  background-image: url(../img/icon_social.png);
+}
+
+.button-google {
+  background-position: -8px -86px;
+  background-image: url(../img/icon_social.png);
+}
+
+.button-linkedin {
+  background-position: -8px -232px;
+  background-image: url(../img/icon_social.png);
+}
+
+.button-facebook {
+  background-position: -8px -160px;
+  background-image: url(../img/icon_social.png);
+}
+
+.disclaimer {
+  font-size: 14px;
+}
+
+.user-profile {
+  width: 80px;
+  height: 80px;
+  border-radius: 40px;
+  background: #333;
+  background-size: 120%;
+  background-position: center center;
+  margin: 12px 12px 12px 0;
+}
+
+.profile-details {
+  font-size: 12px;
+  color: #666;
+  line-height: 17px;
+}
+
+.profile-details strong {
+  color: #000;
+}
+
+.jose{
+  background-image: url(../img/user_jose.jpg);
+}
+
+.bruno{
+  background-image: url(../img/user_bruno.jpg);
+}
+
+.zac{
+  background-image: url(../img/user_zac.jpg);
+}
+
+.list-messsage-title::after {
+  content: none;
+}
+
+.list-messsage-title {
+  overflow: visible;
+  margin: 4px 0;
+}
+
+.list-messages section {
+  margin: 8px 12px;
+  font-size: 14px;
+}
+
+.list-messages section label {
+  color: #000;
+  margin-right: 4px;
+}
+
+.list-messages section span {
+  color: #666;
+}
+
+.list-profile {
+  margin: 0 !important;
+}
+
+.profile-action-buttons {
+  text-align: center;
+}
+
+.profile-logout {
+  width: calc(100% - 20px);
+  margin: 20px -10px 20px 10px;
+}
+
+.profile-action-button {
+  clear: both;
+  width: calc(100% - 24px);
+  margin: 6px;
+}
+
+.list-link.icon-plus::after {
+  content: "\50"; 
+}
+
+.profile-request-intro {
+  margin-bottom: 12px;
+}
+
+.header-hack {
+  margin-top: 0px;
+  height: 100%;
+}
+
+.button-accept {
+  margin: 12px;
+  width: calc(100% - 24px);
+}
+
+.sms-text {
+  text-align: center;
+}
+
+.offer {
+  width: 100%;
+  height: 150px;
+  background-image: url(../img/offer.jpg);
+  background-size: 140%;
+  background-position: center center;
+}
+
+.offer-details p {
+  color: #666;
+}
+
+.offer-details h3 {
+  font-size: 20px;
+  color: #ff7800;
+}
+
+.offer-details strong {
+  color: #000;
+}
+
+.offer-details h4 {
+  font-size: 16px;
+  color: #ff7800;
+}

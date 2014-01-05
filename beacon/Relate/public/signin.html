@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Relate</title>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1,maximum-scale=1,user-scalable=no,minimal-ui">
+    <meta name="apple-mobile-web-app-capable" content="yes">
+    <meta name="apple-mobile-web-app-status-bar-style" content="black">
+    <link rel="stylesheet" href="assets/lib/clarity/css/main.css" />
+    <link rel="stylesheet" href="assets/css/relate.css" />
+    <script type="text/javascript" src="app/js/relate.js"></script>
+  </head>
+  <body ontouchstart="">
+    <div class="app">
+      <div class="top-bar">
+        <h1 class="top-bar-title">Sign In</h1>
+        <a href="#" class="top-bar-link left icon-back" onclick="Relate.loadPage('landing.html')">Back</a>
+        <a href="#" class="top-bar-link right icon-next" onclick="Relate.loadPage('profile.html')">Sign In</a>
+      </div>
+      <section class="content">
+        <ul class="list list-boxed">
+          <li class="list-row">
+            <fieldset>
+              <input type="text" class="form-text-input" placeholder="Username">
+              <input type="password" class="form-text-input" placeholder="Password">
+            </fieldset>
+          </li>
+        </ul>
+        <h2 class="list-title-row">Or Sign In with:</h2>
+        <a href="#" class="login-button button-facebook" onclick="Relate.loadPage('profile.html')">Facebook</a>
+        <a href="#" class="login-button button-linkedin" onclick="Relate.loadPage('profile.html')">LinkedIn</a>
+        <a href="#" class="login-button button-twitter" onclick="Relate.loadPage('profile.html')">Twitter</a>
+        <a href="#" class="login-button button-google" onclick="Relate.loadPage('profile.html')">Google+</a>
+        <footer>
+          <p>Forgot your password?<p>
+        </footer>
+      </section>
+    </div>
+  </body>
+</html>
